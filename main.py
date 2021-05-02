@@ -6,7 +6,7 @@ pairs = [
          ['(.*)my name is (.*)', ['Hello %2, How are you today ?']],
          ['(hi|hello|huii|hoii|helloo)', ['Hello', 'Hey there', 'Hii']],
          ['(.*)fine(.*)', ['Nice']],
-         ['(.*)not(.*)', ['ooh...what happend dear?']],
+         ['(.*)i am not (.*)', ['ooh...what happend dear?']],
          ['(.*)to register a complaint(.*)', ['Go to this link (https://forms.gle/iufjL1dBKf76quck7) '
                                               'to register your complain online'
                                               ' or you can reach your nearby police station']],
@@ -20,7 +20,7 @@ pairs = [
                            'On the basis of IPC (Indian Penal Code)'
                            'The exception to this rule is in the state of Goa,where a uniform civil code is in place,'
                            'in which all religions have a common law regarding marriages, divorces, and adoption.']],
-         ['(.*)I am(.*)', ['Hello I am Nayaya the chatbot, How can i help you %2 ?']],
+         ['(.*)I am (.*)', ['Hello I am Nayaya the chatbot, How can i help you %2 ?']],
          ['(.*)Chief Justice of India(.*)', ['Nuthalapati Venkata Ramana is the new CJI of India']],
          ['(.*) the Chancellor of the NALSAR University of Law (.*) in Hyderabad(.*)', ['Chief Justice of A.P.'
                                                                                         ' High Cour']],
